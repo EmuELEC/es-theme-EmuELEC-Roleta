@@ -8,8 +8,28 @@ version         1.0
 <?xml version="1.0" encoding="UTF-8"?>
 <theme>
    <formatVersion>4</formatVersion>
+   
    <include>./_inc/icons/menuicons.xml</include>
 	<include>./_inc/menu/menu.xml</include>
+	<include subset="personagem" name="mario">./fundo/mario.xml</include>
+	<include subset="personagem" name="alladin">./fundo/alladin.xml</include>
+	<include subset="personagem" name="bison">./fundo/bison.xml</include>
+	<include subset="personagem" name="angrybirds">./fundo/angrybirds.xml</include>
+	<include subset="personagem" name="hyperAntMan">./fundo/hyperAntMan.xml</include>
+	<include subset="personagem" name="banjo">./fundo/banjo.xml</include>
+	<include subset="personagem" name="batman">./fundo/batman.xml</include>
+	<include subset="personagem" name="bomberman">./fundo/bomberman.xml</include>
+	<include subset="personagem" name="captainamerica">./fundo/captainamerica.xml</include>
+	<include subset="personagem" name="crash">./fundo/crash.xml</include>
+	<include subset="personagem" name="gta">./fundo/gta.xml</include>
+	<include subset="personagem" name="kirby">./fundo/kirby.xml</include>
+	<include subset="personagem" name="link">./fundo/link.xml</include>
+	<include subset="personagem" name="luigi">./fundo/luigi.xml</include>
+	<include subset="personagem" name="pacman">./fundo/pacman.xml</include>
+	<include subset="personagem" name="ryu">./fundo/ryu.xml</include>
+	<include subset="personagem" name="scorpion">./fundo/scorpion.xml</include>
+	<include subset="personagem" name="sonic">./fundo/sonic.xml</include>
+	<include subset="personagem" name="spiderman">./fundo/spiderman.xml</include>
 
 <!--
 Carousel wheel and main menu background
@@ -21,15 +41,15 @@ Carousel wheel and main menu background
 <carousel name="systemcarousel">
         <zIndex>43</zIndex>	      
         <type>vertical_wheel</type>
-        <pos>-0.280 0</pos>
+        <pos>-0.216 0</pos>
         <size>1 1</size>
         <logoScale>1.03</logoScale>
-        <logoSize>0.28 0.112</logoSize>
+        <logoSize>0.15 0.08</logoSize>
         <color>00000000</color>
-        <maxLogoCount>6</maxLogoCount>
+        <maxLogoCount>13</maxLogoCount>
         <logoRotation>-4</logoRotation>
 		<logoRotationOrigin>-4.0 0.5</logoRotationOrigin>
-		<logoAlignment>center</logoAlignment>        
+		<logoAlignment>center</logoAlignment>            
       </carousel>
       <image name="background" extra="true">
          <origin>0 0</origin>
@@ -146,7 +166,7 @@ System View Backgrounds
         <!--<path>./_inc/images/shade.png</path>-->
          <zIndex>2</zIndex>          
       </image>                           
-   </view>     
+   </view>   
     
 <!--
 Metadata, description, rating etc
